@@ -126,7 +126,7 @@ align-items: center;
 @media (max-width: 600px){
   #navbar li{
     padding: 0;
-margin: 0 2em 0 0;
+margin: 0 1em 0 0;
   }
   #navbar ul{
 text-align: center;
