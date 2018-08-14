@@ -126,10 +126,10 @@ align-items: center;
 @media (max-width: 600px){
   #navbar li{
     padding: 0;
-margin: 1em 2.2em 1em 1em;
+margin: 0 2em 0 0;
   }
   #navbar ul{
-    text-align: center;
+text-align: center;
 }
   .contactbox{
     width: 13em;
@@ -139,10 +139,6 @@ margin: 1em 2.2em 1em 1em;
   #welcome-section{
     font-size: 0.9em;
     margin: 0.5em 0 0.5em -0.7em;
-  }
-   #navbar li{
-     padding: 0 0.6em 0 0;
-margin: 1em 0.9em 1em 0.5em;
   }
   .contactbox{
     width: 12em;
