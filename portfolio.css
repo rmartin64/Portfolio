@@ -1,0 +1,150 @@
+body{
+  font-family: helvetica;
+  font-size: 100%;
+  margin-bottom: 0em;
+  overflow-x: hidden;
+}
+#navbar{
+  position: fixed;
+  background-color: #D0B0D9;
+ width: 100%;
+ right: 0;
+  top: 0; 
+}
+#navbar li{
+ display: inline;
+padding: 4em;
+}
+#navbar ul{
+   list-style-type: none;
+  text-align: right;
+}
+#navbar a{
+  color: #281C2A;
+}
+#navbar a:hover{
+  color: #3A4383;
+}
+#welcome-section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #D0B0D9;
+  color: #281C2A;
+  margin: 0.5em -0.5em 0.5em -0.5em;
+  padding: 0em 0.7em 0em 0.7em;
+  font-size: 1.3em;
+}
+#projectsbox{
+  margin: -1em;
+  padding: 1em 0 2em 0;
+  text-align: center;
+  background-color: #CDD5E2;
+   color: #281C2A;
+  font-size: 1.2em;
+}
+#projects{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+align-items: center;
+  justify-content: center;
+}
+#projects a{
+  color: #281C2A;
+  font-weight: bold;
+}
+.project-tile{
+width: 15em;
+  margin: 2em;
+  border: 3px solid #3A4383;
+  color: #281C2A;
+  overflow: hidden;
+}
+img{
+max-width: 100%;
+  border-bottom: 2px solid #3A4383;
+}
+#profile-link button{
+  border: 2px solid #B3A3FB;
+  border-radius: 0.2em;
+  background-color: #D0B0D9;
+  color: #281C2A;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+}
+#profile-link button:hover{
+  background-color: #D2C9F7;
+}
+a{
+  text-decoration: none;
+}
+#contact{
+  background-color: #B3A3FB;
+text-align: center;
+width: 100%;
+  margin: 0 0 0 -1em;
+ padding: 1em;
+}
+#contact h2{
+  font-size: 2em;
+}
+#contactcontain{
+    display: flex;
+  flex-wrap: wrap;
+align-items: center;
+  justify-content: center;
+}
+.contactbox{
+  width: 15em;
+  margin: 2em;
+  padding: 2em 0.5em 2em 0.5em;
+  border: 2px solid #3A4383;
+  color: #281C2A;
+  background-color: #CCD6E2;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.contactbox:hover{
+  background-color: #DEE5ED;
+}
+@media (max-width: 900px){
+  #navbar li{
+    padding: 3.5em;
+  }
+  #welcome-section{
+   text-align: center;
+  }
+  .contactbox{
+    width: 14em;
+  }
+}
+@media (max-width: 600px){
+  #navbar li{
+    padding: 0;
+margin: 1em 2em 1em 1em;
+  }
+  #navbar ul{
+    text-align: center;
+}
+  .contactbox{
+    width: 13em;
+  }
+}
+@media (max-width: 320px){
+  #welcome-section{
+    font-size: 0.9em;
+    margin: 0.5em 0 0.5em -1em;
+  }
+   #navbar li{
+    padding: 0;
+margin: 1em 0.9em 1em 0.5em;
+  }
+  .contactbox{
+    width: 10em;
+  }
+}
