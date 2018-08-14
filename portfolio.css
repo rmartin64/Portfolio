@@ -12,12 +12,12 @@ body{
   top: 0; 
 }
 #navbar li{
- display: inline;
-padding: 4em;
+padding: 0.5em 4em 0 4em;
 }
 #navbar ul{
    list-style-type: none;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 #navbar a{
   color: #281C2A;
@@ -113,9 +113,6 @@ align-items: center;
   background-color: #DEE5ED;
 }
 @media (max-width: 900px){
-  #navbar li{
-    padding: 3.5em;
-  }
   #welcome-section{
    text-align: center;
   }
@@ -126,10 +123,10 @@ align-items: center;
 @media (max-width: 600px){
   #navbar li{
     padding: 0;
-margin: 0 3em 0 0;
   }
   #navbar ul{
-text-align: center;
+    justify-content: space-around; 
+   padding-right: 2.75em;
 }
   .contactbox{
     width: 13em;
